@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Boost_Asio", "Boost_Asio\Boost_Asio.vcxproj", "{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_SynchronousTCPServer", "1_SynchronousTCPServer\1_SynchronousTCPServer.vcxproj", "{426C7823-2998-49BF-A1F7-99583BD62FDF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1_SynchronousTCPClient", "1_SynchronousTCPClient\1_SynchronousTCPClient.vcxproj", "{DC386655-6490-4DC7-9AED-4057B32F656B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +15,22 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}.Debug|x64.ActiveCfg = Debug|x64
-		{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}.Debug|x64.Build.0 = Debug|x64
-		{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}.Debug|x86.ActiveCfg = Debug|Win32
-		{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}.Debug|x86.Build.0 = Debug|Win32
-		{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}.Release|x64.ActiveCfg = Release|x64
-		{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}.Release|x64.Build.0 = Release|x64
-		{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}.Release|x86.ActiveCfg = Release|Win32
-		{2EFE5EE9-EF4A-4D04-B748-36460053FEE6}.Release|x86.Build.0 = Release|Win32
+		{426C7823-2998-49BF-A1F7-99583BD62FDF}.Debug|x64.ActiveCfg = Debug|x64
+		{426C7823-2998-49BF-A1F7-99583BD62FDF}.Debug|x64.Build.0 = Debug|x64
+		{426C7823-2998-49BF-A1F7-99583BD62FDF}.Debug|x86.ActiveCfg = Debug|Win32
+		{426C7823-2998-49BF-A1F7-99583BD62FDF}.Debug|x86.Build.0 = Debug|Win32
+		{426C7823-2998-49BF-A1F7-99583BD62FDF}.Release|x64.ActiveCfg = Release|x64
+		{426C7823-2998-49BF-A1F7-99583BD62FDF}.Release|x64.Build.0 = Release|x64
+		{426C7823-2998-49BF-A1F7-99583BD62FDF}.Release|x86.ActiveCfg = Release|Win32
+		{426C7823-2998-49BF-A1F7-99583BD62FDF}.Release|x86.Build.0 = Release|Win32
+		{DC386655-6490-4DC7-9AED-4057B32F656B}.Debug|x64.ActiveCfg = Debug|x64
+		{DC386655-6490-4DC7-9AED-4057B32F656B}.Debug|x64.Build.0 = Debug|x64
+		{DC386655-6490-4DC7-9AED-4057B32F656B}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC386655-6490-4DC7-9AED-4057B32F656B}.Debug|x86.Build.0 = Debug|Win32
+		{DC386655-6490-4DC7-9AED-4057B32F656B}.Release|x64.ActiveCfg = Release|x64
+		{DC386655-6490-4DC7-9AED-4057B32F656B}.Release|x64.Build.0 = Release|x64
+		{DC386655-6490-4DC7-9AED-4057B32F656B}.Release|x86.ActiveCfg = Release|Win32
+		{DC386655-6490-4DC7-9AED-4057B32F656B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
