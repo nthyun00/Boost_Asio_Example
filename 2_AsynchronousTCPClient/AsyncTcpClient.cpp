@@ -1,5 +1,5 @@
-#include <boost/bind.hpp>
 #include "AsyncTcpClient.h"
+#include <boost/bind.hpp>
 
 AsyncTcpClient::AsyncTcpClient(boost::asio::io_service& io_service)
 	:io_service(io_service),
