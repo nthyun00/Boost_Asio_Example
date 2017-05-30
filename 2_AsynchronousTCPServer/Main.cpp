@@ -133,6 +133,7 @@ private:
 
 int main()
 {
+	system("title server");
 	boost::asio::io_service io_service;
 	AsyncTcpServer server(io_service);
 
